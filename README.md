@@ -15,7 +15,7 @@
 |Year |2025-26|
 
 
-##Practical 1: Find the roots of a quadratic equation
+#Practical 1: Find the roots of a quadratic equation
 Aim: Write a Python program to find the roots of a quadratic equation.
 Equation: 
 import cmath
@@ -35,7 +35,7 @@ else:
     print("First root:", root1)
     print("Second root:", root2) 
 
-##Practical 2:Wright a program to accept a number 'n'and 
+#Practical 2:Wright a program to accept a number 'n'and 
  a. check if 'n'is prime
  b. generate all prime number till 'n'
  c. generate first 'n' prime numbers
@@ -54,14 +54,14 @@ def is_prime(n):
 
 n = int(input("Enter a number: "))
 
-# a. Check prime number
+ a. Check prime number
 if is_prime(n):
     print(n, "is a prime number")
 else:
     print(n, "is not a prime number")
 
 
-# b. Generate prime numbers till n
+ b. Generate prime numbers till n
 print("Prime numbers till", n, ":")
 
 for i in range(2, n + 1):
@@ -71,7 +71,7 @@ for i in range(2, n + 1):
 print()
 
 
-# c. Generate first n prime numbers
+ c. Generate first n prime numbers
 print("First", n, "prime numbers:")
 
 count = 0
@@ -87,7 +87,7 @@ while count < n:
 
 
 
-##Practical 3:Create a pyramid and reverse pyramid using*
+#Practical 3:Create a pyramid and reverse pyramid using*
 
 
 n = int(input("Enter number of rows: "))
@@ -105,7 +105,7 @@ for i in range(n, 0, -1):
 
  
  
- ##Practical 4:wright a program that accepts a character  and performs the following:
+ #Practical 4:wright a program that accepts a character  and performs the following:
 
   a. print whether the character is a letter or numeric digit or a special character. 
   b. if the character is a letter, print whether the letter is uppercase or lowercase. 
@@ -141,7 +141,7 @@ print("After removing all occurrences:",
 
 
 
-##Practical 5:Write a program to perform the following operations on a string 
+#Practical 5:Write a program to perform the following operations on a string 
 
   a. find the frequency of a character in a strig . 
   b. Replace a characters by another  character in a string. 
@@ -177,7 +177,7 @@ print("After removing all occurrences:",
       s.replace(ch, ""))
 
 
-##Practical 6:Write a program to swap the first n characters of two strings. 
+#Practical 6:Write a program to swap the first n characters of two strings. 
 
 s1 = input("Enter first string: ")
 s2 = input("Enter second string: ")
@@ -197,7 +197,7 @@ else:
 
 
 
-##Practical 7:
+#Practical 7:
 
 
 
@@ -235,7 +235,7 @@ print("Result:", result)
 
 
 
-##Practical 8:
+#Practical 8:
 
 
 
@@ -244,10 +244,10 @@ print("Result:", result)
 
 
 
-# Input list
+ Input list
 my_list = [1, 2, 3, 4, 5, 6, "Hello", 8.5, 10]
 
-# a. Using for loop
+ a. Using for loop
 
 result1 = []
 
@@ -258,7 +258,7 @@ for x in my_list:
 print("Using for loop:", result1)
 
 
-# b. Using list comprehension
+ b. Using list comprehension
 
 result2 = [x ** 3 for x in my_list
            if type(x) == int and x % 2 == 0]
