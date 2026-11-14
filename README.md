@@ -1,13 +1,13 @@
-Programming Using Python - Practical Record
-Student Details
+#Programming Using Python - Practical Record
+#Student Details
 Field	Details
-Name	Aman kumar
-Course	B.Sc. (Hons.) Computer Science
-Semester	I (First Semester)
-Roll Number	26570008
-Subject	Programming Using Python
+|Name  |Aman kumar|
+|Course	|B.Sc. (Hons.) Computer Science|
+|Semester	|I (First Semester)|
+|Roll Number |26570008  |
+#Subject	Programming Using Python
 College	Ramanujan College, University of Delhi
-How to Run
+#How to Run
 Install Python 3.
 Save the program with a .py extension.
 Open the terminal in the program's folder.
@@ -30,7 +30,7 @@ Class Point2D
 Inheritance: Class Point3D
 Exception Handling for a Name
 Practical 01 - Roots of a Quadratic Equation
-Problem: Write a program to find the roots of a quadratic equation.
+#Practical: Write a program to find the roots of a quadratic equation.
 
 Code:
 
